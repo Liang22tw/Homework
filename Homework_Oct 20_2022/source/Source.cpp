@@ -9,10 +9,10 @@ int main()
 	int account_number = 0;
 	float beginning_balance, total_charges, total_cradits, credit_limit;
 	float New_balance;
-	
+
 	while (account_number != -1)
 	{
-		
+
 		printf("Enter account number (-1 to end) :");
 		scanf_s("%d", &account_number);
 		if (account_number == -1)
@@ -36,7 +36,7 @@ int main()
 		printf("\n\n");
 	}
 	printf("\n\n");
-	
+
 
 
 
@@ -46,22 +46,22 @@ int main()
 	while (sales != -1)
 	{
 		printf("Enter sales in dollars (-1 to end):");
-		scanf_s("%f",&sales);
+		scanf_s("%f", &sales);
 		if (sales == -1)
 			break;
-		salary_Q318 = 200 + sales* 0.09;
+		salary_Q318 = 200 + sales * 0.09;
 		if (sales != -1)
-			printf("Salary is : %.2f\n\n",salary_Q318);
+			printf("Salary is : %.2f\n\n", salary_Q318);
 	}
 	printf("\n\n");
-	
+
 
 	//3.19
 	printf("-----Question 3.19-----\n\n");
 	int days;
-	float loan_principal = 0,rate_Q319, interest;
+	float loan_principal = 0, rate_Q319, interest;
 
-	while(loan_principal != -1)
+	while (loan_principal != -1)
 	{
 		printf("Enter loan principal (-1 to end): ");
 		scanf_s("%f", &loan_principal);
@@ -72,19 +72,19 @@ int main()
 		printf("Enter term of the loan in days : ");
 		scanf_s("%d", &days);
 		interest = loan_principal * rate_Q319 * days / 365;
-		printf("The interest charge is : $%.2f  \n\n",interest);
+		printf("The interest charge is : $%.2f  \n\n", interest);
 	}
 	printf("\n\n");
-	
-	
-	
+
+
+
 
 	//3.20
 	int workhour_320 = 0;
-	float rate_Q320,salary_Q320;
+	float rate_Q320, salary_Q320;
 
 	printf("-----Question 3.20-----\n\n");
-	while(workhour_320 !=- 1)
+	while (workhour_320 != -1)
 	{
 		printf("Enter # of hours worked (-1 to end) : ");
 		scanf_s("%d", &workhour_320);
@@ -99,9 +99,9 @@ int main()
 		printf("Salary is $%.2f\n\n", salary_Q320);
 	}
 	printf("\n\n");
-	
-	
-	
+
+
+
 
 	//3.33
 	printf("-----Question 3.33-----\n\n");
@@ -116,7 +116,7 @@ int main()
 	printf("-----Question 4.15-----\n\n");
 	float rate_415, value_415;
 	rate_415 = 1.095;
-	for (int i=0;i<5;i++)
+	for (int i = 0; i < 5; i++)
 	{
 		value_415 = 5000;
 		rate_415 = rate_415 + 0.005;
@@ -136,7 +136,7 @@ int main()
 	printf("-----Question 4.16-----\n\n");
 
 	printf("(A)\t\t(B)\t\t(C)\t\t(D)\n");
-	for (int i=0; i < 11; i++)
+	for (int i = 0; i < 11; i++)
 	{
 		for (int j = 0; j <= i; j++)		//A
 			printf("*");
@@ -150,12 +150,12 @@ int main()
 
 		for (int j = 0; j <= i; j++)		//C
 			printf(" ");
-			
+
 		for (int j = 11; j > i; j--)
 			printf("*");
-		
+
 		printf("\t");
-			
+
 		for (int j = 10; j > i; j--)		//D
 			printf(" ");
 		for (int j = 0; j <= i; j++)
@@ -164,11 +164,11 @@ int main()
 
 		printf("\n");
 	}
-	
+
 	printf("\n\n");
-	
+
 	//4.27
-	int counter_1=0;
+	int counter_1 = 0;
 
 	printf("-----Question 4.27-----\n\n");
 	printf("|side 1\tside 2\thypotenuse|\n");
@@ -194,20 +194,20 @@ int main()
 		}
 	}
 	printf("\n\n");
-	
+
 
 
 
 
 	//4.28
-	int staff_type=0,quantity_428=0,workdays_428=0;
-	float salary_428=0,sales_428=0,salary_per_item=0,workhours_428,salary_per_hour=0;
+	int staff_type = 0, quantity_428 = 0, workdays_428 = 0;
+	float salary_428 = 0, sales_428 = 0, salary_per_item = 0, workhours_428, salary_per_hour = 0;
 	printf("-----Question 4.28-----\n\n");
 	while (staff_type != -1)
 	{
 		printf("Enter staff type (-1 to end): ");
-		scanf_s("%d",&staff_type);
-	
+		scanf_s("%d", &staff_type);
+
 		if (staff_type == 1)
 		{
 			printf("Enter his/her weekly salary : ");
@@ -223,7 +223,7 @@ int main()
 			if (workhours_428 > 40)
 				salary_428 = salary_per_hour * 40 + (workhours_428 - 40) * 2 * salary_per_hour / 2 * 1.5;
 			else
-				salary_428 = (workhours_428 *2) * salary_per_hour / 2;
+				salary_428 = (workhours_428 * 2) * salary_per_hour / 2;
 			printf("his/her salary : $%.2f", salary_428);
 		}
 		else if (staff_type == 3)
@@ -256,7 +256,7 @@ int main()
 
 
 	//4.31
-	
+
 	printf("-----Question 4.31-----\n\n");
 	for (int i = 0; i < 9; i++)
 	{
@@ -268,7 +268,7 @@ int main()
 		printf("\n");
 	}
 	printf("\n\n");
-	
+
 	system("pause");
 	return 0;
 }
