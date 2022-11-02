@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(16,10): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(16,10): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(16,10): message : 缺少 variadic 引數 2 (其為格式字串 '%c' 所需)
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(16,10): message : 此引數可用為緩衝區大小
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(67,44): warning C4244: '引數': 將 'unsigned __int64' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(67,33): warning C4244: '引數': 將 'unsigned __int64' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(87,6): warning C4101: 'layer': 未參考的區域變數
+C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Homework_Nov 3_2022\Source.cpp(28,19): warning C4101: 'small': 未參考的區域變數
+  Homework_Nov 3_2022.vcxproj -> C:\Users\LiangYu\Desktop\Homework\Homework_Nov 3_2022\Debug\Homework_Nov 3_2022.exe
