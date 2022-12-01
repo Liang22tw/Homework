@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\liangyu\desktop\homework\homework_dec 1_2022\6.19\6.19\source.cpp(10): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+c:\users\liangyu\desktop\homework\homework_dec 1_2022\6.19\6.19\source.cpp(13): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  6.19.vcxproj -> C:\Users\LiangYu\Desktop\Homework\Homework_Dec 1_2022\6.19\Debug\6.19.exe

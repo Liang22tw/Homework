@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\liangyu\desktop\homework\homework_dec 1_2022\p22\p22\source.cpp(19): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  P22.vcxproj -> C:\Users\LiangYu\Desktop\Homework\Homework_Dec 1_2022\P22\Debug\P22.exe
