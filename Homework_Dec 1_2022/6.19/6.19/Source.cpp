@@ -22,7 +22,8 @@ void main()
 	}
 	printresult();
 
-	printf("\n");
+	printf("\n\n");
+	system("pause");
 }
 
 void printresult()
