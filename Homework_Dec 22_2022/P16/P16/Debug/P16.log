@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\liangyu\desktop\homework\homework_dec 22_2022\p16\p16\source.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 請參閱 'fopen' 的宣告
+c:\users\liangyu\desktop\homework\homework_dec 22_2022\p16\p16\source.cpp(17): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(456): note: 請參閱 'getche' 的宣告
+  P16.vcxproj -> C:\Users\LiangYu\Desktop\Homework\Homework_Dec 22_2022\P16\Debug\P16.exe
